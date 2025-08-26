@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - generic:
+      - link "conduit" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Sign in" [ref=e10] [cursor=pointer]:
+            - /url: /login
+        - listitem [ref=e11]:
+          - link "Sign up" [ref=e12] [cursor=pointer]:
+            - /url: /register
+  - generic [ref=e14]:
+    - generic [ref=e16]:
+      - heading "conduit" [level=1] [ref=e17]
+      - paragraph [ref=e18]:
+        - text: A place to share your
+        - generic [ref=e19]: Angular 2
+        - text: knowledge.
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - generic [ref=e26] [cursor=pointer]: Your Feed
+          - listitem [ref=e27]:
+            - generic [ref=e28]: Global Feed
+          - text: 
+        - generic [ref=e30]: Loading articles...
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: Popular Tags
+        - generic [ref=e34]: Loading tags...
+  - contentinfo [ref=e35]:
+    - generic [ref=e36]:
+      - link "conduit" [ref=e37] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e38]:
+        - text: © 2025. An interactive learning project from
+        - link "Thinkster" [ref=e39] [cursor=pointer]:
+          - /url: https://thinkster.io
+        - text: . Code licensed under MIT.
+```
