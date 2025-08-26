@@ -6,6 +6,7 @@
     "test": "playwright test"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "playwright": "^1.44.0"
   },
   "description": "",
